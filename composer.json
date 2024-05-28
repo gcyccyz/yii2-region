@@ -1,23 +1,23 @@
 {
-    "name": "cy/yii2-region",
+    "name": "gcyccyz/yii2-region",
     "description": "Yii2中国省市区三级联动",
-    "keywords": [
+	"keywords": [
         "yii2","region","province","city","district"
     ],
-    "type": "yii2-widget",
+    "type": "library",
+    "require": {
+        "yiisoft/yii2": "2.0.49.3"
+    },
     "license": "BSD-3-Clause",
-    "authors": [
+	"authors": [
         {
             "name": "1150008690",
             "email": "1150008690@qq.com"
         }
     ],
-    "require": {
-        "yiisoft/yii2": "*"
-    },
-    "autoload": {
+	"autoload": {
         "psr-4": {
-            "cy\\region\\": ""
+            "gcyccyz\\region\\": ""
         }
     }
 }
